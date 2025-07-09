@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-expressions */
-import { Ed, randomBytes, ab2str } from 'react-native-quick-crypto';
+import { Ed, randomBytes, ab2str } from '@quai/react-native-quick-crypto';
 import { Buffer } from '@craftzdog/react-native-buffer';
 import { expect } from 'chai';
 import { test } from '../util';

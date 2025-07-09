@@ -1,5 +1,5 @@
 import { Bench } from 'tinybench';
-import rnqc from 'react-native-quick-crypto';
+import rnqc from '@quai/react-native-quick-crypto';
 import { ed25519 as noble } from '@noble/curves/ed25519';
 import type { BenchFn } from '../../types/benchmarks';
 

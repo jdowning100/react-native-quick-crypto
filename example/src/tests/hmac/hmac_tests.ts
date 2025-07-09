@@ -4,7 +4,7 @@
  */
 
 import { Buffer } from '@craftzdog/react-native-buffer';
-import crypto, { createHmac, type Encoding } from 'react-native-quick-crypto';
+import crypto, { createHmac, type Encoding } from '@quai/react-native-quick-crypto';
 import { assert, expect } from 'chai';
 import { test } from '../util';
 

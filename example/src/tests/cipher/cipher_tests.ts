@@ -3,7 +3,7 @@ import {
   getCiphers,
   createCipheriv,
   randomFillSync,
-} from 'react-native-quick-crypto';
+} from '@quai/react-native-quick-crypto';
 import { expect } from 'chai';
 import { test } from '../util';
 import { roundTrip, roundTripAuth } from './roundTrip';

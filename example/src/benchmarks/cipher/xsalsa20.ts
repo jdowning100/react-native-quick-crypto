@@ -1,5 +1,5 @@
 import { Bench } from 'tinybench';
-import rnqc from 'react-native-quick-crypto';
+import rnqc from '@quai/react-native-quick-crypto';
 import { xsalsa20 as nobleXSalsa20 } from '@noble/ciphers/salsa';
 import type { BenchFn } from '../../types/benchmarks';
 

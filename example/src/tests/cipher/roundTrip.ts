@@ -4,7 +4,7 @@ import {
   createDecipheriv,
   type Cipher,
   type Decipher,
-} from 'react-native-quick-crypto';
+} from '@quai/react-native-quick-crypto';
 import { expect } from 'chai';
 
 // --- Helper Functions ---

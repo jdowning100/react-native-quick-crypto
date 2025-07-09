@@ -7,7 +7,7 @@
  */
 
 import { Buffer } from '@craftzdog/react-native-buffer';
-import { createCipheriv } from 'react-native-quick-crypto';
+import { createCipheriv } from '@quai/react-native-quick-crypto';
 import { expect } from 'chai';
 import { test } from '../util';
 import { roundTrip, roundTripAuth } from './roundTrip';

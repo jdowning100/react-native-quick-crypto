@@ -1,4 +1,4 @@
-import rnqc, { type HashAlgorithm } from 'react-native-quick-crypto';
+import rnqc, { type HashAlgorithm } from '@quai/react-native-quick-crypto';
 import * as noble from '@noble/hashes/pbkdf2';
 import { sha256 } from '@noble/hashes/sha2';
 // @ts-expect-error - crypto-browserify is not typed

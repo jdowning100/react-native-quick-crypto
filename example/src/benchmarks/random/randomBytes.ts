@@ -1,4 +1,4 @@
-import rnqc from 'react-native-quick-crypto';
+import rnqc from '@quai/react-native-quick-crypto';
 // @ts-expect-error - crypto-browserify is not typed
 import browserify from 'crypto-browserify';
 import type { BenchFn } from '../../types/benchmarks';

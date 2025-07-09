@@ -4,8 +4,8 @@ import { expect } from 'chai';
 import { test } from '../util';
 import { fixtures, type Fixture } from './fixtures';
 
-import crypto from 'react-native-quick-crypto';
-import type { BinaryLike, HashAlgorithm } from 'react-native-quick-crypto';
+import crypto from '@quai/react-native-quick-crypto';
+import type { BinaryLike, HashAlgorithm } from '@quai/react-native-quick-crypto';
 
 type TestFixture = [string, string, number, number, string];
 

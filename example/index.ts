@@ -1,5 +1,5 @@
 // polyfills
-import { install } from 'react-native-quick-crypto';
+import { install } from '@quai/react-native-quick-crypto';
 install();
 
 // event-target-shim
